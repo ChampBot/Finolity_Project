@@ -1,0 +1,60 @@
+
+.it-header #navbarSupportedContent .nav-item{
+    padding: 0.2rem 0.5rem 0.5rem .2rem;
+}
+
+.nav-item .nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--bs-dark);
+}
+
+.nav-item .nav-link.active, .nav-item .nav-link:hover {
+    color: var(--bs-danger) !important;
+}
+.client-support {
+    background-color: #F5F5F5;
+    padding: 0px 0.3rem;
+    border-radius: 6px;
+    color: #000;
+    min-width: 130px;
+}
+
+.client-support a {
+    text-decoration: none;
+    color: var(--bs-dark);
+    padding: 0px 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.client-support:hover {
+    background-color: var(--bs-danger-bg-subtle);
+}
+.client-support a:hover {
+    color: var(--bs-danger);
+}
+.support-number {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.support-number a {
+    color: var(--bs-dark);
+    text-decoration: none;
+}
+.support-number a:hover {
+    color: #010ED0;
+    background-color: #DEE0FF00;
+    text-decoration: none;
+}
+.contact-us {
+    font-weight: 600;
+    min-width: 130px;
+}
+
+@media screen and (max-width: 767.98px) {
+    .contact-us {
+        background-color: var(--bs-danger) !important;
+        border-color: var(--bs-danger-bg-subtle);
+    }
+}

@@ -1,0 +1,32 @@
+.what-we-do {
+    min-height: 4rem;
+    background-color: var(--bs-dark);
+}
+.dummy {
+    min-height: 4rem;
+}
+.title {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    color: #FFCC1B;
+}
+.simplifying {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+    width: 50%;
+}
+.card-img-top {
+    height: 5rem;
+    width: 5rem;
+}
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.card-text {
+    font-size: .8rem;
+    width: 80%;
+}

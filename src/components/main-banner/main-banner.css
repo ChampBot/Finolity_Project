@@ -1,0 +1,72 @@
+.banner-heading h1{
+    font-size: 4rem;
+    text-align: left;
+    padding-top: 1rem;
+    line-height: 1;
+}
+
+.banner-subheading {
+    width: 85%;
+}
+
+.banner-subheading p {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.banner-image {
+    background-image: url(../../assets/images/facebook-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.main-banner {
+    min-height: 27rem;
+}
+.rating label{
+    min-width: 7rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.rating .fa-star {
+    font-size: 1.1rem;;
+}
+.agency img{
+    min-width: 7rem;
+}
+.agency span {
+    margin-left: 1.7rem;
+    font-weight: 500;
+    color: #333;
+}
+.highlight {
+    color: var(--bs-danger);
+}
+.banner .b-header {
+    font-size: 2rem;
+    margin-right: 0.15rem;
+    font-weight: 500;
+    border-left: 3px solid #ccc;
+    line-height: 0.8;
+    padding-left: 0.5rem;
+}
+.banner .b-suheader {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.banner-des {
+    padding-left: 0.75rem;
+}
+@media screen and (max-width: 767.98px) {
+    .banner-image {
+        min-height: 20rem;
+    }
+    .banner-heading h1 {
+        font-size: 2rem;
+    }
+    .banner-subheading p {
+        font-size: 1rem;
+    }
+}
